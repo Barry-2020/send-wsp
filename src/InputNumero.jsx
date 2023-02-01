@@ -8,15 +8,15 @@ export const InputNumero = ({numero, handdleNumero}) => {
     }
     return (
         <div className="inputs">
-            <label htmlFor="numero">Número <span>*</span></label>
+            <label htmlFor="numero">Número <span className="notification">*</span></label>
             <input
                 id='numero' 
                 type="tel" 
-                className="in-input"
+                className=""
                 value={numero}
                 pattern="[0-9]+"
                 required
-                placeholder="987654321"
+                placeholder="987654..."
                 onChange={ ({target}) => validar(target) }/>
         </div>
     )

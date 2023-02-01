@@ -26,8 +26,9 @@ header p{
     color: rgb(25, 25, 25);
 }
 .tarjeta{
-    color: #fff;
+    /* color: #fff; */
     width: 80%;
+    max-width: 920px;
     margin: 50px 0;
     background: #1EBEA5;
     font-size: 28px;
@@ -39,16 +40,27 @@ header p{
     /* width: 100%; */
     margin: 20px;
 }
+.historial{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: rgb(25, 25, 25);
+}
 .inputs{
     /* background-color: aquamarine; */
     width: 100%;
 }
+.notification{
+    color: rgb(240, 112, 98);
+}
 .inputs input{
+    background: transparent;
     margin: 10px 0;
     padding: 10px;
     display: block;
     border-style: solid;
-    border-color: darkgray;
+    border-color: rgb(0, 0, 0);
     border-width: 1px;
     border-radius: 5px;
     height: 45px;
@@ -56,6 +68,12 @@ header p{
     box-sizing: border-box;
     width: 100%;
     max-width: 100%; 
+}
+::placeholder{
+    color: rgb(89, 89, 89);
+}
+:focus{
+    outline: none;
 }
 .enviar-msj {
     text-align: right;
@@ -90,4 +108,7 @@ footer p{
     padding: 5px 5px;
     border-radius: 50%; 
    
+}
+.tabla{
+    border-style: solid;
 }

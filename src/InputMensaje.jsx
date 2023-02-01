@@ -12,7 +12,7 @@ export const InputMensaje = ({mensaje, handdleMensaje}) => {
                 id='mensaje' 
                 type="text" 
                 value={mensaje} 
-                placeholder="(Opcional)"
+                placeholder="Opcional..."
                 onChange={ ({target}) => validar(target) }/>
         </div>
     )
