@@ -6,12 +6,13 @@ export const InputMensaje = ({mensaje, handdleMensaje}) => {
         }
     }
     return (
-        <div>
-            <label htmlFor="mensaje">Mensaje (opcional)</label>
+        <div className="inputs">
+            <label htmlFor="mensaje">Mensaje </label>
             <input
                 id='mensaje' 
                 type="text" 
                 value={mensaje} 
+                placeholder="(Opcional)"
                 onChange={ ({target}) => validar(target) }/>
         </div>
     )

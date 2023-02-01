@@ -1,8 +1,93 @@
-body{
-    /* background: linear-gradient(90deg, #1EBEA5, #D0E9EA 50%); */
+/* *{
+    margin: 0;
+} */
+.app{
+    width: 100%;
+}
+header{
+    background-color: #128c7e;
+    color: white;
+    padding: 10px;
+    display: flex;
+}
+.header-body{
+    width: 100%;
+    text-align: right;
+}
+header p{
+    font-size: 17px;
+    font-weight: bold;
 }
 .form-base{
+    display: flex;
+    justify-content: center;
     height: 100%;
+    width: 100%;
+    color: rgb(25, 25, 25);
+}
+.tarjeta{
+    color: #fff;
+    width: 80%;
+    margin: 50px 0;
     background: #1EBEA5;
-    color: whitesmoke
+    font-size: 28px;
+    font-weight: 700;
+    box-shadow: 6px 6px 10px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+.tarjeta-cuerpo{
+    /* width: 100%; */
+    margin: 20px;
+}
+.inputs{
+    /* background-color: aquamarine; */
+    width: 100%;
+}
+.inputs input{
+    margin: 10px 0;
+    padding: 10px;
+    display: block;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 25px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%; 
+}
+.enviar-msj {
+    text-align: right;
+}
+.enviar-msj button{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100px;
+}
+footer{
+    /* margin: 1m 0 0 0; */
+    margin-top: 2%;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer p{
+    font-size: 14px;
+    color: black;
+}
+.pgn{
+    width: 25px;
+    margin: 5 25px;
+    padding: 5px 5px;
+    border-radius: 50%; 
+   
 }

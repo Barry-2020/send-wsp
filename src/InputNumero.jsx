@@ -7,17 +7,17 @@ export const InputNumero = ({numero, handdleNumero}) => {
         }
     }
     return (
-        <div>
+        <div className="inputs">
             <label htmlFor="numero">Número <span>*</span></label>
             <input
                 id='numero' 
                 type="tel" 
+                className="in-input"
                 value={numero}
                 pattern="[0-9]+"
                 required
+                placeholder="987654321"
                 onChange={ ({target}) => validar(target) }/>
-            
-            {/* <input type="tel" pattern="[0-9]+" /> */}
         </div>
     )
 }
